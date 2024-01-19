@@ -581,43 +581,45 @@
         <button type="button" class="modal-close-btn">x</button>
         <p class="modal-text">Leave your contacts and we will call you back</p>
         <form class="modal-form">
-          <label class="modal-label" for="user-name">Name</label>
-          <div class="modal-input-wrap">
-            <input
-              type="text"
-              name="user-name"
-              class="modal-input input-modal"
-              id="user-name"
-            />
-            <svg width="18" height="18" class="modal-icon icon-modal">
-              <use href="./images/icons.svg#icon-person"></use>
-            </svg>
+          <div>
+            <label class="modal-label" for="user-name">Name</label>
+            <div class="modal-input-wrap">
+              <input
+                type="text"
+                name="user-name"
+                class="modal-input input-modal"
+                id="user-name"
+              />
+              <svg width="18" height="18" class="modal-icon icon-modal">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
+            <label class="modal-label" for="user-tel">Phone</label>
+            <div class="modal-input-wrap">
+              <input
+                type="tel"
+                name="user-tel"
+                class="modal-input"
+                id="user-tel"
+              />
+              <svg width="18" height="24" class="modal-icon">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+            <label class="modal-label" for="user-mail">Email</label>
+            <div class="modal-input-wrap">
+              <input
+                type="email"
+                name="user-email"
+                class="modal-input"
+                id="user-mail"
+              />
+              <svg width="18" height="24" class="modal-icon">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+            <button class="modal-button hero-button" type="submit">Send</button>
           </div>
-          <label class="modal-label" for="user-tel">Phone</label>
-          <div class="modal-input-wrap">
-            <input
-              type="tel"
-              name="user-tel"
-              class="modal-input"
-              id="user-tel"
-            />
-            <svg width="18" height="24" class="modal-icon">
-              <use href="./images/icons.svg#icon-phone"></use>
-            </svg>
-          </div>
-          <label class="modal-label" for="user-mail">Email</label>
-          <div class="modal-input-wrap">
-            <input
-              type="email"
-              name="user-email"
-              class="modal-input"
-              id="user-mail"
-            />
-            <svg width="18" height="24" class="modal-icon">
-              <use href="./images/icons.svg#icon-email"></use>
-            </svg>
-          </div>
-          <button class="modal-button hero-button" type="submit">Send</button>
         </form>
       </div>
     </div>
