@@ -611,6 +611,7 @@ ul {
 }
 
 .modal-close-btn {
+  padding: 0;
   margin-left: auto;
   display: block;
   position: absolute;
@@ -626,6 +627,18 @@ ul {
   border: 1px solid rgba(0, 0, 0, 0.1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-icon-close {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-icon-close:hover {
+  fill: #ffffff;
+}
+
+.modal-icon-close:focus {
+  fill: #ffffff;
 }
 
 .modal-close-btn:hover {
@@ -654,6 +667,7 @@ ul {
   border-radius: 4px;
   border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
   outline: transparent;
+  background-color: transparent;
 }
 
 .input-modal:focus {
