@@ -546,6 +546,7 @@ ul {
 }
 
 .footer-modal-form {
+  display: flex;
   gap: 24px;
 }
 
