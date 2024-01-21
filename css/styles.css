@@ -535,6 +535,12 @@ ul {
   background-color: #31d0aa;
 }
 
+/*-----------------------------------------*/
+
+.footer-modal {
+  margin-left: 80px;
+}
+
 .footer-modal-text {
   margin-bottom: 16px;
   color: #ffffff;
@@ -580,6 +586,8 @@ ul {
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
+  padding: 8px 24px;
+  gap: 16px;
 }
 
 /*-----------------------------------------*/
@@ -775,7 +783,7 @@ ul {
   text-decoration-line: underline;
 }
 
-.check-text .label-span {
+.check-text span {
   width: 16px;
   height: 16px;
   stroke-width: 1px;
@@ -794,7 +802,7 @@ ul {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.check-input:checked + .check-icon {
+.visually-hidden:checked + .check-text span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
