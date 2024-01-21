@@ -572,7 +572,7 @@
             </label>
             <button class="footer-modal-button" type="submit">
               Subscribe
-              <svg width="24" height="24" class="footer-modal-icon">
+              <svg width="24" height="24" class=".footer-modal-icon">
                 <use href="./images/icons.svg#icon-Frame"></use>
               </svg>
             </button>
@@ -589,7 +589,7 @@
         </button>
         <p class="modal-text">Leave your contacts and we will call you back</p>
         <form class="modal-form">
-          <div>
+          <div class="modal-wrap">
             <label class="modal-label" for="user-name">Name</label>
             <div class="modal-input-wrap">
               <input
@@ -602,6 +602,8 @@
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </div>
+          </div>
+          <div class="modal-wrap">
             <label class="modal-label" for="user-tel">Phone</label>
             <div class="modal-input-wrap">
               <input
@@ -614,6 +616,8 @@
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
+          </div>
+          <div class="modal-wrap">
             <label class="modal-label" for="user-mail">Email</label>
             <div class="modal-input-wrap">
               <input
@@ -626,35 +630,35 @@
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </div>
-            <div class="modal-wrap-comment">
-              <label class="modal-label" for="user-comment">Comment</label>
-              <textarea
-                name="user-comment"
-                id="user-comment"
-                placeholder="Text input"
-                class="modal-comment-text"
-              ></textarea>
-            </div>
-            <div class="modal-check">
-              <input
-                type="checkbox"
-                name="user-privacy"
-                id="user-privacy"
-                class="visually-hidden"
-                value="true"
-              />
-              <label for="user-privacy" class="check-text">
-                <span class="label-span">
-                  <svg width="10" height="8" class="check-icon">
-                    <use href="./images/icons.svg#icon-vector"></use>
-                  </svg>
-                </span>
-                I accept the terms and conditions of the
-                <a href=""> Privacy Policy </a>
-              </label>
-            </div>
-            <button class="modal-button hero-button" type="submit">Send</button>
           </div>
+          <div class="modal-wrap-comment">
+            <label class="modal-label" for="user-comment">Comment</label>
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              placeholder="Text input"
+              class="modal-comment-text"
+            ></textarea>
+          </div>
+          <div class="modal-check">
+            <input
+              type="checkbox"
+              name="user-privacy"
+              id="user-privacy"
+              class="visually-hidden"
+              value="true"
+            />
+            <label for="user-privacy" class="check-text">
+              <span class="label-span">
+                <svg width="10" height="8" class="check-icon">
+                  <use href="./images/icons.svg#icon-vector"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href=""> Privacy Policy </a>
+            </label>
+          </div>
+          <button class="modal-button hero-button" type="submit">Send</button>
         </form>
       </div>
     </div>
