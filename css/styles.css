@@ -608,6 +608,7 @@ ul {
   padding: 24px;
   border-radius: 4px;
   background: var(--DAIRY, #fcfcfc);
+
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
     0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
   position: absolute;
@@ -653,9 +654,17 @@ ul {
   border: none;
 }
 
+.modal-close-btn:hover .modal-icon-close {
+  fill: #ffffff;
+}
+
 .modal-close-btn:focus {
   background-color: #404bbf;
   border: none;
+}
+
+.modal-close-btn:focus .modal-icon-close {
+  fill: #ffffff;
 }
 
 .modal-text {
@@ -747,9 +756,13 @@ ul {
   height: 16px;
   stroke-width: 1px;
   stroke: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
-  fill: none;
+  fill: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 8px;
+}
+
+.check-icon {
+  stroke-width: 1px;
 }
