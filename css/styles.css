@@ -777,9 +777,6 @@ ul {
   letter-spacing: 0.04em;
   stroke-width: 1px;
   stroke: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
-  display: flex;
-  align-items: center;
-  gap: 8px;
 }
 
 .check-text a {
